@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Maya Patel",
+    "specialization": ["Anxiety", "Stress"],
+    "location": "New York",
+    "availability": ["Monday", "Wednesday", "Friday"]
+  },
+  {
+    "id": 2,
+    "name": "John Roberts",
+    "specialization": ["Depression", "Couples Therapy"],
+    "location": "Los Angeles",
+    "availability": ["Tuesday", "Thursday"]
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ayesha Khan",
+    "specialization": ["Trauma", "Grief"],
+    "location": "Chicago",
+    "availability": ["Monday", "Tuesday", "Friday"]
+  },
+  {
+    "id": 4,
+    "name": "Samuel Green",
+    "specialization": ["ADHD", "Behavioral Issues"],
+    "location": "Houston",
+    "availability": ["Wednesday", "Thursday"]
+  },
+  {
+    "id": 5,
+    "name": "Dr. Emily Zhang",
+    "specialization": ["Child Psychology", "Autism Spectrum"],
+    "location": "San Francisco",
+    "availability": ["Monday", "Thursday", "Saturday"]
+  },
+  {
+    "id": 6,
+    "name": "David Lee",
+    "specialization": ["Anger Management", "Addiction"],
+    "location": "Seattle",
+    "availability": ["Tuesday", "Friday"]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Priya Mehta",
+    "specialization": ["Eating Disorders", "Self-Esteem"],
+    "location": "Boston",
+    "availability": ["Wednesday", "Saturday"]
+  }
+]

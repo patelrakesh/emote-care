@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# 🧠 Emote Care – Therapist Discovery & Booking Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, accessible, and cleanly coded web app to discover and book therapists, designed as part of the Senior Front-End Engineer Case for Emote Care.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: React (Vite) with TypeScript
+- **Styling**: Tailwind CSS + shadcn/ui (Radix UI based components)
+- **Routing**: React Router v7
+- **State**: Local component state
+- **Testing**: Coming soon (unit test example will be added)
+- **Data**: Local JSON (mock)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ✅ Core Requirements
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Therapist List Page (grid layout)
+- Real-time filtering by:
+  - Specialization
+  - Location
+  - Availability (Weekday)
+- Therapist Profile Page with:
+  - Bio
+  - Specializations
+  - Availability
+  - Booking Form UI (non-functional)
+- Mobile responsive layout
+- Clean, readable code with modular structure
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### 💎 Bonus Highlights
+
+- Uses **shadcn/ui** for accessible, modern UI
+- Type-safe with **TypeScript**
+- Easy to expand into a real product
+
+---
+
+## 🚀 Getting Started
+
+### 📁 Clone the Repo
+
+```bash
+git clone https://github.com/your-username/emote-therapist-app.git
+cd emote-therapist-app
+
+npm run dev or yarn dev or pnpm dev
+
 ```
