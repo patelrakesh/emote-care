@@ -48,6 +48,8 @@ A responsive, accessible, and cleanly coded web app to discover and book therapi
 git clone https://github.com/your-username/emote-therapist-app.git
 cd emote-therapist-app
 
+npm install or yarn install or pnpm install
+
 npm run dev or yarn dev or pnpm dev
 
 ```
