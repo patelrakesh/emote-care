@@ -1,4 +1,4 @@
-# 🧠 Emote Care – Therapist Discovery & Booking Interface
+# Emote Care – Therapist Discovery & Booking Interface
 
 A responsive, accessible, and cleanly coded web app to discover and book therapists, designed as part of the Senior Front-End Engineer Case for Emote Care.
 
